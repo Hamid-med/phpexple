@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-family: ‘Poppins’, sans-serif;
+    background-color: #f1f1f1;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(106, 165, 243, 0.7);
+}
+ nav .logo {
+    text-transform: uppercase;
+    color:whitesmoke;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+nav ul li a.active,
+nav ul li a:hover {
+    color: #3079ed;
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem
+}
+.add a{
+    background-color: dodgerblue;
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 1.2rem;
+    height: fit-content;
+    padding: 0.3rem 0.4rem;
+}
+form{
+    padding-top:99px;
+    text-align:center;
+}
+
+input{
+
+    height:29px;
+    width:200px;
+}
+input:focus{
+    color:rgb(255, 0, 98);
+    background-color:dodgerblue;
+
+}
+.hamid{
+   
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: dodgerblue;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+}
